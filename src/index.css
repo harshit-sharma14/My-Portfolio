@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prata&display=swap');
+
+
+:root{
+    font-family: "Inter",sans-serif;
+    background: #ffffff;
+}
+.bw-image {
+  width: 60%; /* Adjust to fit your layout */
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+  cursor: pointer; /* For smooth hover effect */
+}
+
+.bw-image:hover {
+  filter: grayscale(0%); /* Show color on hover */
+}
+  /* .ani{
+    overflow: hidden;
+    animation: typing 2s steps(18), 
+    cursor .4s step-end infinite alternate;
+    position: relative;
+    -webkit-text-stroke: 0.3vw;
+
+  } */
+   .ani::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: conic-gradient(#ff0095,#006aff,#00ff99,#ff4545);
+    top:50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding:3px;
+    border-radius: 10px;
+  }
+  .ani::before{
+    filter:blur(1.5rem);
+  }
+/* .fullstack::before{
+  content:attr(data-text);
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  color:white;
+  border-right: 2px solid wheat;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+} */
+@keyframes animate {
+  0%,10%,100%{
+    width: 0;
+  }
+  70%,90%{
+    width: 100%;
+  }
+}
+@keyframes cursor {
+  50% {border-color:transparent}
+}
+@keyframes typing {
+  from {width: 0}
+}
+.aniq{
+  position: sticky;
+  top:0;
+}
+.away{
+  transition: 0.5s ease-in-out;
+}
