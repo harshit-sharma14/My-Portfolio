@@ -48,7 +48,7 @@ export const Hero = () => {
  experiences. Adept at API integration, debugging, and building responsive designs. Actively
  seeking opportunities to leverage my skills in impactful projects.</motion.p>
  <a href="/Harshit_Sharma_Resume.pdf" target="_blank" rel="noopener noreferrer" download>
-  <div className='bg-white rounded p-4 text-sm text-stone-800 mb-10 relative w-[30vw] md:w-[10vw] h-[6vh] ani'>
+  <div className='bg-white rounded p-4 text-sm text-stone-800 mb-10 relative min-w-[30vw] md:w-[10vw] h-[6vh] ani'>
     Download Resume
   </div>
 </a>
