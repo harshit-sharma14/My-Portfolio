@@ -47,7 +47,11 @@ export const Hero = () => {
  web applications using the MERN stack, optimizing performance, and creating seamless user
  experiences. Adept at API integration, debugging, and building responsive designs. Actively
  seeking opportunities to leverage my skills in impactful projects.</motion.p>
-                    <motion.a variants={child} href="/Resume1.pdf" target='_blank' rel='no' download className='bg-white rounded p-4 text-sm text-stone-800 mb-10 relative w-[10vw] h-[6vh] ani'>Download Resume</motion.a>
+ <a href="/Harshit_Sharma_Resume.pdf" target="_blank" rel="noopener noreferrer" download>
+  <div className='bg-white rounded p-4 text-sm text-stone-800 mb-10 relative w-[30vw] h-[6vh] ani'>
+    Download Resume
+  </div>
+</a>
                     </motion.div>
                     </div>
         </div>

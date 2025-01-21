@@ -6,17 +6,17 @@ export const Navbar = () => {
   return (
     <nav className='flex items-center justify-between py-6'>
       <div className='flex flex-shrink-0 items-center'>
-        <a href="/" aria-label='Home'>
+        <a href="/" className='text-2xl font-bold font-serif' aria-label='Home'>Portfoilio
         </a>
       </div>
-      <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+      <div className='m-8 flex items-center justify-center gap-4 text-4xl'>
         <a href="https://linkedin.com/in/harshit-sharma-9885b7249" target="_blank" rel="noopener noreferrer" aria-label='LinkedIn'>
-          <FaLinkedin />
+        <FaLinkedin className="transition duration-300 hover:text-blue-500 cursor-pointer hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50" />
         </a>
         <a href="https://github.com/harshit-sharma14" target="_blank" rel="noopener noreferrer" aria-label='GitHub'>
-          <FaGithub />
+          <FaGithub  className='transition duration-300 hover:text-yellow-500 cursor-pointer hover:scale-110 hover:shadow-lg hover:shadow-yellow-500/50' />
         </a>
-        <a href="https://www.instagram.com/_harshitsharma14/" target="_blank" rel="noopener noreferrer" aria-label='Instagram'>
+        <a href="https://www.instagram.com/_harshitsharma14/" className='transition duration-300 hover:text-red-500 cursor-pointer hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50' target="_blank" rel="noopener noreferrer" aria-label='Instagram'>
           <FaInstagram />
         </a>
         
