@@ -54,7 +54,7 @@ export const Projects = () => {
             </motion.div>
             <motion.div  whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}}  className='w-full max-w-xl lg:w-3/4'>
             <h3 className='mb-2 font-semibold text-2xl'>TV Show Finder Website</h3>
-            <p className='mb-4 text-stone-400'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus cumque nam quia unde voluptates ipsum beatae, similique aliquam? Dolor nostrum, culpa nisi unde quibusdam voluptate suscipit impedit. Veritatis, ad perferendis!</p>
+            <p className='mb-4 text-stone-400'>Discover your favorite shows with our TV Show Finder website, built using HTML, CSS, JavaScript, and API integration. Search for shows, view details, and stay updated with the latest entertainment trends seamlessly!</p>
             <span className='mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>HTML</span>
             <span className='mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>JS</span>
             <span className='mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>API</span>
