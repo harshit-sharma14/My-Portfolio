@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <nav className='flex items-center justify-between py-6'>
       <div className='flex flex-shrink-0 items-center'>
-        <a href="/" className='text-2xl font-bold font-serif' aria-label='Home'>Portfoilio
+        <a href="https://harshit-sharma14.github.io/My-Portfolio/" className='text-2xl font-bold font-serif' aria-label='Home'>Portfoilio
         </a>
       </div>
       <div className='m-8 flex items-center justify-center gap-4 text-4xl'>
