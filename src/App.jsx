@@ -5,12 +5,13 @@ import { Tech } from './Tech'
 import { Projects } from './Projects'
 import { Contact } from './Contact'
 import { Card } from './Card'
-
+import { Deco } from './Deco'
+import { Navbar1 } from './Navbar1'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-      
+     
     <div className='overflow-hidden text-stone-300 antialiased'>
       <div className='fixed inset-0 -z-10'>
         <div className='relative h-full w-full '>
@@ -26,6 +27,7 @@ function App() {
       {/* <Card/> */}
     </div>
     </div>
+    
   )
 }
 
