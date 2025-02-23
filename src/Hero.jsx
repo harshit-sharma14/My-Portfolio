@@ -45,8 +45,7 @@ export const Hero = () => {
                     <motion.p variants={child} className='my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter text-center lg:text-left'> Dynamic and results-driven Computer Science & Engineering student with expertise in full-stack
  development and proficiency in C++ and Data Structures & Algorithms. Skilled in designing scalable
  web applications using the MERN stack, optimizing performance, and creating seamless user
- experiences. Adept at API integration, debugging, and building responsive designs. Actively
- seeking opportunities to leverage my skills in impactful projects.</motion.p>
+ experiences. Adept at API integration, debugging, and building responsive designs.</motion.p>
  <a href="/Harshit_Sharma_Resume.pdf" target="_blank" rel="noopener noreferrer" download>
   {/* <div className='bg-white rounded p-4 text-sm text-stone-800 mb-10 relative min-w-[30vw] md:w-[10vw] h-[6vh] ani'>
     Download Resume
