@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/raviKumarLogo.webp';
 import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 export const Navbar = () => {

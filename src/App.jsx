@@ -8,7 +8,6 @@ import { Card } from './Card'
 import { Deco } from './Deco'
 import { Navbar1 } from './Navbar1'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
      
