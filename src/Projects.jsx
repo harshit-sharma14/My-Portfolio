@@ -34,7 +34,7 @@ export const Projects = () => {
     <motion.div  whileInView={{opacity:1,x:0}} initial={{opacity:0,x:100}} transition={{duration:1}}  className='w-full max-w-xl lg:w-3/4'>
     
 
-    <h3 className='mb-2 font-semibold text-2xl'>StayEase: A MERN Stack Hotel Booking Platform
+    <h3 className='mb-2 font-semibold text-2xl'>A MERN Stack Hotel Booking Platform
     </h3>
     <p className='mb-4 text-stone-400'>This hotel website clone is built using the MERN stack (MongoDB, Express.js, React, Node.js). It features a responsive design, dynamic room listings, secure user authentication, and an intuitive booking system, showcasing modern web development techniques.</p>
     <button className='m-2 rounded bg-stone-900 p-2 text-sm font-medium w-auto  text-stone-300'>React.js</button>
@@ -61,7 +61,7 @@ export const Projects = () => {
             <span className='mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>HTML</span>
             <span className='mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>JS</span>
             <span className='mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300'>API</span> */}
-            <h3 className='mb-2 font-semibold text-2xl'>BlogSphere: A MERN Stack Blogging Platform
+            <h3 className='mb-2 font-semibold text-2xl'>A MERN Stack Blogging Platform
             </h3>
             <p className='mb-4 text-stone-400'>This blogging website is built using the MERN stack (MongoDB, Express.js, React, Node.js). It features a responsive design, dynamic post creation, secure user authentication, and an intuitive content management system, showcasing modern web development techniques.</p>
             <button className='m-2 rounded bg-stone-900 p-2 text-sm font-medium w-auto  text-stone-300'>React.js</button>
